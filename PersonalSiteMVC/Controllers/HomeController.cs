@@ -26,5 +26,12 @@ namespace PersonalSiteMVC.Controllers
 
             return View();
         }
+
+        public ActionResult Links()
+        {
+            ViewBag.Message = "Links for fellow students.";
+
+            return View();
+        }
     }
 }
